@@ -5,7 +5,7 @@ export KEEPALIVE=${KEEPALIVE:-'0'}
 export OPENSERVER=${OPENSERVER:-'1'}
 
 export CF_IP=${CF_IP:-'try.cloudflare.com'}
-export ECH_PORT=${ECH_PORT:-'8080'}
+export ECH_PORT=${ECH_PORT:-'8001'}
 export ECH_PROTOCOL=${ECH_PROTOCOL:-'ws'}
 export ECH_LISTEN=${ECH_LISTEN:-'proxy://127.0.0.1:10808'}
 export ECH_DNS=${ECH_DNS:-'dns.alidns.com/dns-query'}
@@ -21,8 +21,8 @@ export NEZHA_SERVER=${NEZHA_SERVER:-''}
 export NEZHA_KEY=${NEZHA_KEY:-''}
 export NEZHA_PORT=${NEZHA_PORT:-'443'}
 
-export ARGO_DOMAIN=${ARGO_DOMAIN:-''}
-export ARGO_AUTH=${ARGO_AUTH:-''}
+export ARGO_DOMAIN=${ARGO_DOMAIN:-'rw2025.gtll.gv.uy'}
+export ARGO_AUTH=${ARGO_AUTH:-'eyJhIjoiODE1MjkzMDQxNzVmM2E0YjllMWJlNTc5NTBlNWZmNzMiLCJ0IjoiNTQzMThmMmYtNmU1Yi00MGIxLWJmYzktYWFlMzI5NTJkZmE0IiwicyI6Ik1XVTJaVGs0T1dJdFlUVTFPQzAwT0RFeUxXSTRPR1F0TTJRNU9ESTVNbUpsWlRZeCJ9'}
 
 hint() { echo -e "\033[33m\033[01m$*\033[0m"; }
 
